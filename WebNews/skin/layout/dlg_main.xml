@@ -1,0 +1,20 @@
+﻿<layer title="DUI-DEMO" width="690" height="420" appwin="1" ncRect="5,5,5,5"  resize="0" translucent="0"  nomaxsize="0">
+	<body>
+    <dlg id="100" pos="0,0,-0,-0" class="cls_dlg_frame">
+      <caption id="101" pos="0,0,-0,29">
+        <text pos="11,9" class="cls_txt_red">腾讯迷你新闻</text>
+        <imgbtn id="1" skin="btn_sys_close"    pos="-42,1" tip="close" animate="0"/>
+        <imgbtn id="2" skin="btn_sys_maximize"  pos="-80,1" animate="0" />
+        <imgbtn id="3" name="按钮_恢复" skin="btn_sys_restore"  pos="-80,1" show="0" animate="0" />
+        <imgbtn id="5" name="btn_minimize" skin="btn_sys_minimize" pos="-118,1" animate="0" />
+      </caption>
+	  <div pos="2,29,-2,-2">
+		<realwnd pos="0,0,-0,-0" name="IDC_IECTRL" wndclass="IECTRL" wndname="http://www.baidu.com"/>
+	  </div>
+    </dlg>
+	</body>
+</layer>
+
+
+
+
