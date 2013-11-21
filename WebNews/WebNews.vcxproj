@@ -42,10 +42,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>..\..\ThridPartLib\C\DuiEngine\include;$(IncludePath)</IncludePath>
+    <SourcePath>G:\代码仓库\OpenSource\duiengine\DUIEngine\src;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>..\..\ThridPartLib\C\DuiEngine\include;$(IncludePath)</IncludePath>
+    <SourcePath>G:\代码仓库\OpenSource\duiengine\DUIEngine\src;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

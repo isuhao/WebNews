@@ -8,8 +8,6 @@
   
 	<imglst name="btn_sys_close"    src="80" subwidth="38" />
 	<imglst name="btn_sys_minimize" src="81" subwidth="36" />
-  <imglst name="btn_sys_maximize" src="82" subwidth="36" />
-  <imglst name="btn_sys_restore" src="83" subwidth="36" />
 
   <imglst name="tabskin_default" src="103" subwidth="94"/>
   

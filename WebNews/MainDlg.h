@@ -83,13 +83,29 @@ public:
         if ( !m_bLayoutInited ) return;
         if ( nType == SIZE_MAXIMIZED )
         {
-            FindChildByCmdID( 3 )->SetVisible( TRUE );
-            FindChildByCmdID( 2 )->SetVisible( FALSE );
+            CDuiWindow* pBtnRestore = FindChildByCmdID( 3 );
+            CDuiWindow* pBtnMax = FindChildByCmdID( 2 );
+            if ( pBtnRestore )
+            {
+                pBtnRestore->SetVisible( TRUE );
+            }
+            if ( pBtnMax )
+            {
+                pBtnMax->SetVisible( FALSE );
+            }
         }
         else if ( nType == SIZE_RESTORED )
         {
-            FindChildByCmdID( 3 )->SetVisible( FALSE );
-            FindChildByCmdID( 2 )->SetVisible( TRUE );
+            CDuiWindow* pBtnRestore = FindChildByCmdID( 3 );
+            CDuiWindow* pBtnMax = FindChildByCmdID( 2 );
+            if ( pBtnRestore )
+            {
+                pBtnRestore->SetVisible( FALSE );
+            }
+            if ( pBtnMax )
+            {
+                pBtnMax->SetVisible( TRUE );
+            }
         }
     }
     

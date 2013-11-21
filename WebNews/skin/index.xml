@@ -20,8 +20,6 @@
 <resid type="ICO" id_name="IDP_ICO_LOGO"  id="500"  file="skins\img_logo.ico"    />
 <resid type="IMGX" id_name="IDP_BTN_SYS_CLOSE"  id="80"  file="skins\btn_sys_close.png"    />
 <resid type="IMGX" id_name="IDP_BTN_SYS_MINIMIZE"  id="81"  file="skins\btn_sys_minimize.png" />
-<resid type="IMGX" id_name="IDP_BTN_SYS_MAXIMIZE"  id="82"  file="skins\btn_sys_maximize.png" />
-<resid type="IMGX" id_name="IDP_BTN_SYS_RESOTRE"  id="83"  file="skins\btn_sys_restore.png" />
 
 <resid type="IMGX" id_name="IDP_TAB_COMMON"  id="103"  file="skins\tab_common.png" />
 <resid type="IMGX" id_name="IDP_SCROLL"  id="104"  file="skins\scrollbar.png" />
